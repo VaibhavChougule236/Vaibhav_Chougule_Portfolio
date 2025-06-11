@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Hi, I'm Vaibhav Chougule, a passionate Full-Stack Java Developer. Explore my projects, skills, and experience in Java, Spring Boot, and web development. Let's build something great!">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Vaibhav Chougule- Portfolio||Contact me</title>
+    <link rel="stylesheet" href="CSS/style.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="CSS/navbar.css" media="print" onload="this.onload=null;this.removeAttribute('media');">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Vaibhav Chougule</a>
+
+        <button id="theme-toggle" class="theme-btn">
+            <i id="theme-icon" class="fas fa-moon"></i>
+        </button>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#Projects" style="--i:4">Projects</a>
+            <a href="#Experience" style="--i:5">Experience</a>
+            <a href="#Services" style="--i:6">Services</a>
+            <a href="#contact" style="--i:7">Contact</a>
+
+
+
+        </nav>
+
+    </header>
+    <main>
+        <section class="Home scroll-reveal from-left" id="home">
+            <div class="Home-Content">
+                <h3>Hello, I am </h3>
+                <h1>Vaibhav Chougule</h1>
+                <h3>And I'm a <span class="text"></span></h3>
+                <p>Welcome to my portfolio. I am a software developer passionate about building web applications.</p>
+
+
+                <div class="Home-sci">
+                    <a href="https://wa.me/918010625721" target="_blank" rel="noopener noreferrer" style="--i:2"
+                        aria-label="Chat on WhatsApp">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/vaibhavchougule124/" target="_blank" rel="noopener noreferrer"
+                        style="--i:3" aria-label="Connect on LinkedIn">
+                        <i class='bx bxl-linkedin-square'></i>
+                    </a>
+                    <a href="https://github.com/vaibhavchougule236" target="_blank" rel="noopener noreferrer" style="--i:1"
+                        aria-label="Follow Vaibhav Chougule on GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://t.me/+WA_rNbPga9Y3NDBl" target="_blank" rel="noopener noreferrer" style="--i:4"
+                        aria-label="Connect on Telegram">
+                        <i class='bx bxl-telegram'></i>
+                    </a>
+                    <a href="tel:+918010625721" style="--i:5" aria-label="Call Vaibhav Chougule">
+                        <i class='bx bxs-phone-call'></i>
+                    </a>
+
+
+                </div>
+                <div class="resume-btn">
+                    <a href="resume/Vaibhav_Chougule_Resume.pdf" download class="btn">Download Resume</a>
+                </div>
+            </div>
+            <div class="card-container">
+                <div class="card">
+
+                    <div class="side front">
+                        <img src="../IMG/Vaibhav.jpg" alt="Vaibhav Chougule" class="front-img">
+                    </div>
+
+
+                    <div class="side back">
+                        <div class="profile-back-card">
+                            <div class="profile-image">
+                                <img src="../IMG/Vaibhav.jpg" alt="Vaibhav Chougule">
+                            </div>
+                            <h2>Vaibhav Chougule</h2>
+                            <p>Software Developer</p>
+                            <p>Passionate about building modern web applications.</p>
+                            <div class="back-links">
+                                <a href="https://www.linkedin.com/in/vaibhavchougule124/" target="_blank">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                                <a href="mailto:vaibhavchougule236@gmail.com">
+                                    <i class='bx bxl-gmail'></i>
+                                </a>
+                                <a href="tel:+918010625721">
+                                    <i class='bx bxs-phone-call'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+        <section class="about scroll-reveal from-right" id="about">
+            <div class="title">
+                <h2 class="sub-title">About <span> Me</span></h2>
+            </div>
+
+
+            <div class="about">
+                <div class="about-img">
+                    <div class="card" id="profileCard">
+                        <!-- <div class="front">
+                            <img src="..\IMG\Vaibhav1.jpg" loading="lazy" alt="Vaibhav's profileCard">
+                        </div> -->
+                        <div class="profile-back-card">
+                            <div class="profile-image">
+                                <img src="../IMG/Vaibhav.jpg" alt="Vaibhav Chougule">
+                            </div>
+                            <h2>Vaibhav Chougule</h2>
+                            <p>Software Developer</p>
+                            <p>Passionate about building modern web applications.</p>
+                            <div class="back-links">
+                                <a href="https://www.linkedin.com/in/vaibhavchougule124/" target="_blank">
+                                    <i class='bx bxl-linkedin'></i>
+                                </a>
+                                <a href="mailto:vaibhavchougule236@gmail.com">
+                                    <i class='bx bxl-gmail'></i>
+                                </a>
+                                <a href="tel:+918010625721">
+                                    <i class='bx bxs-phone-call'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-text">
+
+                    <h4>Full Stack Developer!</h4>
+                    <p>
+                        I'm a <strong>Full Stack Developer</strong> with a strong foundation in <strong>HTML, CSS,
+                            JavaScript, Bootstrap, Java, Spring boot, SQL</strong>. I enjoy crafting
+                        user-friendly, scalable web applications with modern
+                        technologies.
+                    </p>
+                    <p>
+                        I'm passionate about solving real-world problems through code and constantly expanding my
+                        knowledge in <strong>web development</strong> and <strong>digital innovation</strong>.
+                    </p>
+                    <p>
+                        Currently, I’m seeking opportunities to join a collaborative team that values creativity,
+                        learning, and a shared passion for technology.
+                    </p>
+                </div>
+            </div>
+
+        </section><br>
+
+
+
+
+
+
+        <!-- <section class="skills scroll-reveal from-left" id="skills">
+            <div class="title">
+                <h2 class="sub-title">My <span>Skills</span></h2>
+            </div>
+            <div class="skills-wrapper">
+                
+                <div class="container1">
+                    <h1 class="heading1">Technical Skills</h1>
+                    <div class="Technical-bars">
+                        <div class="bar">
+                            <i style="color: yellow;" class="bx bxl-html5"></i>
+                            <div class="info"><span>HTML</span></div>
+                            <div class="progress-line html"><span></span></div>
+                        </div>
+                        <div class="bar">
+                            <i style="color: yellow;" class="bx bxl-css3"></i>
+                            <div class="info"><span>CSS</span></div>
+                            <div class="progress-line css"><span></span></div>
+                        </div>
+                        <div class="bar">
+                            <i style="color: yellow;" class="bx bxl-javascript"></i>
+                            <div class="info"><span>JavaScript</span></div>
+                            <div class="progress-line js"><span></span></div>
+                        </div>
+                        <div class="bar">
+                            <i style="color: yellow;" class="bx bxl-java"></i>
+                            <div class="info"><span>Java</span></div>
+                            <div class="progress-line java"><span></span></div>
+                        </div>
+                        <div class="bar">
+                            <i style="color: yellow;" class="bx bxl-c"></i>
+                            <div class="info"><span>C</span></div>
+                            <div class="progress-line c"><span></span></div>
+                        </div>
+                        <div class="bar">
+                            <i style="color: yellow;" class="bx bxl-python"></i>
+                            <div class="info"><span>Python</span></div>
+                            <div class="progress-line python"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <div class="container1">
+                    <h1 class="heading1">Professional Skills</h1>
+                    <div class="radial-container">
+                        <div class="radial-bars">
+                            <svg viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path" cx="100" cy="100" r="80"
+                                    style="stroke-dasharray: 502; stroke-dashoffset: 50;"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="skill-text">Creativity</div>
+                        </div>
+                        <div class="radial-bars">
+                            <svg viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path" cx="100" cy="100" r="80"
+                                    style="stroke-dasharray: 502; stroke-dashoffset: 50;"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="skill-text">Communication</div>
+                        </div>
+                        <div class="radial-bars">
+                            <svg viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path" cx="100" cy="100" r="80"
+                                    style="stroke-dasharray: 502; stroke-dashoffset: 50;"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="skill-text">Problem Solving</div>
+                        </div>
+                        <div class="radial-bars">
+                            <svg viewBox="0 0 200 200">
+                                <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle class="path" cx="100" cy="100" r="80"
+                                    style="stroke-dasharray: 502; stroke-dashoffset: 50;"></circle>
+                            </svg>
+                            <div class="percentage">90%</div>
+                            <div class="skill-text">Teamwork</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Projects Section -->
+
+
+        <section class="skills scroll-reveal from-left" id="skills">
+            <div class="title">
+                <h2 class="sub-title">Technical <span>Skills</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+                    <p>HTML</p>
+                </div>
+                <div class="skill-card"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+                    <p>CSS</p>
+                </div>
+                <div class="skill-card"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                        alt="Bootstrap">
+                    <p>Bootstrap</p>
+                </div>
+                <div class="skill-card"><img
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                        alt="JavaScript">
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                    <p>Java</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                        alt="Spring Boot">
+                    <p>Spring Boot</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/hibernate/hibernate-original.svg"
+                        alt="Hibernate">
+                    <p>Hibernate</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+                    <p>SQL</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                        alt="Postman">
+                    <p>Postman</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+                    <p>C</p>
+                </div>
+                <div class="skill-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        alt="Python">
+                    <p>Python</p>
+                </div>
+                
+
+            </div>
+        </section>
+
+
+        <section id="Projects">
+
+            <div class="projects scroll-reveal from-right">
+                <div class="title">
+                    <h2 class="sub-title">My <span> Projects</span></h2>
+                </div>
+                <div class="project-container">
+                    <div class="projects-list">
+
+                        <div class="project-box">
+                            <img src="..\IMG\Weather_web.png" alt="beachgatewayfl.com">
+                            <div class="project-layer">
+                                <h4>Weather Forcasting WebApp</h4>
+                                <p>A responsive Weather Forcasting WebApp using HTML, CSS
+                                    JavaScript, Bootstrap, Java and Springboot</p>
+                                <a href="https://weather-production-970a.up.railway.app" target="_blank">Visit</a>
+                            </div>
+                        </div>
+
+                        <div class="project-box">
+                            <img src="..\IMG\BMS.png" alt="BMS">
+                            <div class="project-layer">
+                                <h4>Bank Management System</h4>
+                                <p>A Bank Management System platform built with Java, JDBC, Java Swing, SQL.
+                                </p>
+                                <a href="https://github.com/VaibhavChougule236/Bank-Management-System"
+                                    target="_blank">Visit</a>
+                            </div>
+                        </div>
+
+                        <div class="project-box">
+                            <img src="..\IMG\Contact_Saving_web.png" alt="Create Online Web">
+                            <div class="project-layer">
+                                <h4>Smart Contact Manager</h4>
+                                <p>A Conact Managing website built using HTML, CSS, JavaScript, Java, Springboot, SQL, etc.
+                                </p>
+                                <a href="https://github.com/VaibhavChougule236/Smart-Contact-Manager"
+                                    target="_blank">Visit</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Experience -->
+
+        <section id="Experience">
+
+            <div class="experience">
+                <div class="title">
+                    <h2 class="sub-title">My <span> Experience</span></h2>
+
+                    <section id="experience">
+                        <div class="experience-container">
+
+                            <div class="timeline">
+                                <div class="timeline-item scroll-reveal from-left">
+                                    <div class="timeline-content">
+                                        <h3 style="color:azure">Java Developer</h3>
+                                        <span class="exp-date">June 2024 – Jully 2024</span>
+                                        <p style="color:azure; font-size: medium;">Participated in code reviews and pair
+                                            programming to
+                                            improve code quality and
+                                            collaborate with team
+                                            members.</p>
+                                    </div>
+                                </div>
+
+                                <div class="timeline-item scroll-reveal from-right">
+                                    <div class="timeline-content">
+                                        <h3 style="color:azure">Software Engineering Virtual Intern</h3>
+                                        <span class="exp-date">Jan 2025 – Feb 2025</span>
+                                        <p style="color:azure; font-size: medium;"> Developed practical software
+                                            engineering skills through
+                                            hands-on projects
+                                            simulating real-world scenarios</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+                <div class="Experience-container">
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Services -->
+
+        <section id="Services">
+            <div class="services scroll-reveal from-left">
+                <div class="title">
+                    <h2 class="sub-title">My <span>Services</span></h2>
+                </div>
+                <div class="service-container">
+                    <div class="services-list">
+
+                        <div class="service-item">
+                            <i class="bx bxs-paint" style="color: #00eeff;"></i>
+                            <h2>UI/UX Design</h2>
+                            <p>Delivers visually appealing and user-centric interfaces that enhance usability and ensure
+                                seamless interaction across devices.</p>
+                            <a href="#" class="read">Read more..</a>
+                        </div>
+
+                        <div class="service-item">
+                            <i class="bx bx-code" style="color: #00eeff;"></i>
+                            <h2>Web Development</h2>
+                            <p>Builds fast, responsive, and accessible websites using modern technologies to provide a
+                                dynamic user experience.</p>
+                            <a href="#" class="read">Read more..</a>
+                        </div>
+
+                        <div class="service-item">
+                            <i class="fas fa-database" style="color: #00eeff;"></i>
+                            <h2>Backend Development</h2>
+                            <p>Implements robust server-side logic, secure APIs, and scalable databases to support
+                                reliable application performance.</p>
+                            <a href="#" class="read">Read more..</a>
+                        </div>
+
+                        <div class="service-item">
+                            <i class="fas fa-tools" style="color: #00eeff;"></i>
+                            <h2>Code Optimization</h2>
+                            <p>Improves existing codebases by enhancing readability, boosting performance, and ensuring
+                                maintainability over time.</p>
+                            <a href="#" class="read">Read more..</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="contact">
+            <div class="contact-container">
+                <h1 class="sub-title">Contact <span>Me</span></h1>
+                <form id="contact-form" action="">
+
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Enter Your Name" required>
+                        <input type="email" id="email" placeholder="Enter Your Mail Id" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" id="mobile" placeholder="Enter Your Mobile Number" required>
+                        <input type="text" id="subject" placeholder="Enter Subject Of The Mail" required>
+                    </div>
+
+                    <textarea id="message" placeholder="Enter Your Message Here..." required></textarea>
+
+                    <button type="submit" class="submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send
+                    </button>
+
+                </form>
+            </div>
+        </section>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init({
+                    publicKey: "Gs0ZXQu9DDewzeiHv",
+                });
+            })();
+        </script>
+
+    </main>
+    <footer>
+        <div class="container">
+
+            <div class="footer-info">
+                <p>&copy; Made with ❤️ by Vaibhav</p>
+            </div>
+
+
+            <div class="social-icons">
+                <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Connect with Vaibhav Chougule"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.instagram.com/accounts/login/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Chat with Vaibhav Chougule"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/vaibhavchougule124/" target="_blank" rel="noopener noreferrer"
+                    aria-label="Connect with Vaibhav Chougule">
+                    <i class='bx bxl-linkedin-square'></i>
+                </a>
+                <a href="https://t.me/+WA_rNbPga9Y3NDBl" target="_blank" rel="noopener noreferrer"
+                    aria-label="Connect with Vaibhav Chougule"><i class='bx bxl-telegram'></i></a>
+                <a href="tel:+91 8010625721" style="--i:5" aria-label="Call to Vaibhav Chougule"><i
+                        class='bx bxs-phone-call'></i></a>
+
+            </div>
+            <div>
+                <span class="scroll-up">
+                    <a href="#home" aria-label="Home"><i class="bx bx-up-arrow-alt"></i></a>
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script src="JS/script.js" defer></script>
+</body>
+
+</html>

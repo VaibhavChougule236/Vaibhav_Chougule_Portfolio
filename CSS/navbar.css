@@ -1,0 +1,147 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background: #333;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Navbar Links */
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    color: #ffcc00;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.menu-toggle div {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.theme-toggle {
+    background: transparent; 
+    border: none;            
+    padding: 10px;           
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  #theme-icon {
+    font-size: 26px;
+    color: white;
+    cursor: pointer;
+    background: #333;
+    text-decoration: none;
+  }
+
+/* Hide navbar on small screens */
+@media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        background: #222;
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .navbar a {
+        padding: 15px;
+        display: block;
+        width: 100%;
+    }
+
+    .navbar.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+}
+  
+  @media (max-width: 576px) {
+    .theme-toggle {
+      left: 10px;
+      top: 15px;
+      z-index: 1001;
+    }
+  
+    .menu-toggle {
+      right: 10px;
+      top: 15px;
+      z-index: 1000;
+    }
+  
+    .theme-toggle {
+      padding-right: 20px;
+    }
+  
+    .menu-toggle {
+      margin-left: 20px; /* Adjust as needed */
+    }
+  }
+  
+/* Transform Hamburger into Cross (X) */
+.menu-toggle.active div:nth-child(1) {
+    transform: translateY(19px) rotate(45deg);
+}
+
+.menu-toggle.active div:nth-child(2) {
+    opacity: 0;
+}
+
+.menu-toggle.active div:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+
+
